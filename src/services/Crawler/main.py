@@ -4,7 +4,7 @@ import shutil
 from multiprocessing import Pool
 import signal
 import argparse
-from collect_links import CollectLinks
+from .collect_links import CollectLinks
 import imghdr
 import base64
 from pathlib import Path

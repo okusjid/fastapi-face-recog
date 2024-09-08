@@ -1,0 +1,10 @@
+fastapi
+celery
+redis
+requests
+uvicorn
+certifi
+chardet
+idna
+selenium
+webdriver-manager

@@ -1,4 +1,4 @@
-from app.config.celery_config import celery_app
+from src.config.celery_config import celery_app
 import time
 
 # # Face recognition task
@@ -10,6 +10,6 @@ import time
 # Web crawler task
 @celery_app.task
 def run_crawler(url):
-    from app.services.Crawler import main as crawl
+    from src.services.Crawler import main as crawl
     result = crawl(url)
     return result

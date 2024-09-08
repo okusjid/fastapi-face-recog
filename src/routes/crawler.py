@@ -1,5 +1,5 @@
 from fastapi import APIRouter, BackgroundTasks
-from app.celery_worker import run_crawler
+from src.celery_worker import run_crawler
 
 router = APIRouter()
 

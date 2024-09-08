@@ -1,5 +1,5 @@
 from fastapi import APIRouter, BackgroundTasks
-from app.celery_worker import process_face_recognition
+from src.celery_worker import process_face_recognition
 
 router = APIRouter()
 
